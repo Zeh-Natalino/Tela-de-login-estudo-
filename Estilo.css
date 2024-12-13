@@ -18,7 +18,7 @@ body{
     background-color: white;
     border-radius: 15px;
     width: 960px;
-    height: 50%;
+    height: 420px;
     justify-content: space-between;
     align-items: center;
     position: relative;
@@ -29,6 +29,8 @@ body{
     background-color: #58af9b;
     width: 40%;
     height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
  }
  .title {
     font-size: 28px;
@@ -62,7 +64,7 @@ body{
     padding: 10px 50px;
     cursor: pointer;
     font-weight: bold;
-    width: 150px;
+    width: 160px;
     align-self: center;
     margin-top: 1rem 0;
  }
