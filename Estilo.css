@@ -31,6 +31,8 @@ body{
     height: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+
+    left: 60%;
  }
  .title {
     font-size: 28px;
@@ -87,7 +89,7 @@ body{
  }
 .first-content {
     display: flex;
-    position: relative;
+    display: none;
 }
 .first-column {
     text-align: center;
@@ -145,7 +147,25 @@ body{
     color: #7f8c8d;
     padding: 5px;
 }
+
+/* SUPER DIVISÂO */
+
 .second-content{
     position: absolute;
-    display: none;
+    display: flex;
+}
+.second-content .first-column{
+    order: 2;
+}
+.second-content.second-column{
+    order: 1;
+}
+.password {
+    color: #34495e;
+    font-size: 14px;
+    margin: 15px;
+    text-align: center;
+}
+.password::first-letter {
+    text-transform: capitalize;
 }
